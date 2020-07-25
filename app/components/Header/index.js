@@ -11,15 +11,15 @@ import messages from './messages';
 function Header() {
   return (
     <div>
-      <A href="https://www.reactboilerplate.com/">
-        <Img src={Banner} alt="react-boilerplate - Logo" />
+      <A href="https://www.delicious.com.au/travel/international/gallery/100-cities-deserve-place-travel-bucket-list/o4lzlr69">
+        <Img src={Banner} alt="Destination Cities" />
       </A>
       <NavBar>
         <HeaderLink to="/">
-          <FormattedMessage {...messages.home} />
+          <FormattedMessage {...messages.input} />
         </HeaderLink>
         <HeaderLink to="/features">
-          <FormattedMessage {...messages.features} />
+          <FormattedMessage {...messages.display} />
         </HeaderLink>
       </NavBar>
     </div>
