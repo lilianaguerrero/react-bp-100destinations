@@ -18,7 +18,7 @@ function Header() {
         <HeaderLink to="/">
           <FormattedMessage {...messages.input} />
         </HeaderLink>
-        <HeaderLink to="/features">
+        <HeaderLink to="/cities">
           <FormattedMessage {...messages.display} />
         </HeaderLink>
       </NavBar>

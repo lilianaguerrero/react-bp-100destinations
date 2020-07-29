@@ -13,13 +13,13 @@ function Footer() {
         <FormattedMessage {...messages.licenseMessage} />
       </section>
       <section>
-        <LocaleToggle />
+        
       </section>
       <section>
         <FormattedMessage
           {...messages.authorMessage}
           values={{
-            author: <A href="​https://github.com/lilianaguerrero">Liliana Guerrero</A>,
+            author: <A>Liliana Guerrero</A>,
           }}
         />
       </section>
